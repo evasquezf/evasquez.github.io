@@ -2729,9 +2729,12 @@ input, select, textarea {
 			.spotlight .hvrbox .hvrbox-layer_bottom {
 				width: 45%;
 			}
+			.spotlight .hvrbox .hvrbox-layer_top {
+				width: 45%;
+			}
 
 			.spotlight .content {
-				width: 55%;
+				width: 80%;
 			}
 
 		}
@@ -2751,6 +2754,9 @@ input, select, textarea {
 				}
 
 				.spotlight .hvrbox .hvrbox-layer_bottom {
+					width: 100%;
+				}
+				.spotlight .hvrbox .hvrbox-layer_top {
 					width: 100%;
 				}
 
@@ -4064,6 +4070,7 @@ input, select, textarea {
 		position: absolute;
 		top: 50%;
 		left: 50%;
+		width: 85%;
 		-moz-transform: translate(-50%, -50%);
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
